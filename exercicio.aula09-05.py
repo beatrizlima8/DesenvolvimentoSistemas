@@ -12,7 +12,7 @@ num5 = int (input('Digite o quinto número:'))
 
 soma = num1 + num2 + num3 + num4 + num5
 
-print('A soma dos números é ' f'{soma}!')
+print(f'A soma dos números é ' f'{soma}!')
 
 #Peça ao usuário para digitar 4 números e mostre qual é o maior e qual é o menor:
 
