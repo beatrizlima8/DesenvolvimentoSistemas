@@ -28,7 +28,31 @@ print (f'O maior número é {listaNumeros[-1]} e o menor número é {listaNumero
 
 #Peça ao usuário uma palavra e mostre quantas vogais ela tem:
 
+palavra = input('Digite uma palavra: ')
+vogais = ["a", "e", "i", "o", "u"]
+contador = 0
+
+for letra in palavra:
+    for vogal in vogais:
+        if(vogal == letra):
+            contador += 1
+print(f"A palavra {palavra} tem {contador} vogais")
+
 #Peça ao usuário para digitar 6 números e mostre apenas os números pares digitados:
+
+numero1 = int (input('Digite o primeiro número: '))
+numero2 = int (input('Digite o segundo número: '))
+numero3 = int (input('Digite o terceiro número: '))
+numero4 = int (input('Digite o quarto número: '))
+numero5 = int (input('Digite o quinto número: '))
+numero6 = int (input('Digite o sexto número: '))
+
+ListaNumeros = [numero1, numero2, numero3, numero4, numero5, numero6]
+contador = 0
+for numero in ListaNumeros:
+   if (numero %2 == 0):
+    contador += 1
+print(f"Entre os números digitados, {contador} deles são pares")
 
 #Solicite as notas de 4 provas e mostre a média:
 
