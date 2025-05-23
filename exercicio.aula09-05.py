@@ -68,10 +68,37 @@ print(f'A média das notas é {media}!')
 
 #Peça ao usuário um número e mostre a tabuada desse número de 1 a 10:
 
+
+
 #Peça um número N ao usuário e mostre todos os números de 1 até N:
+
+numeroDigitado = int (input('Digite um número para mostrar todos os números de 1 até o número digitado: '))
+
+for numero in range(1, numeroDigitado + 1):
+    print (f'{numero}')
 
 #Peça ao usuário uma palavra e mostre ela ao contrário:
 
+palavraDigitada = input ('Digite uma palavra para que ela seja mostrada ao contrário: ')
+palavraReversa = palavraDigitada [::-1]
+print (f'O contrário da palavra {palavraDigitada} é: {palavraReversa}!')
+
 #Peça um número ao usuário e diga se ele é múltiplo de 3:
 
+numeroDigitado = int (input('Digite um número para saber se ele é múltiplo de 3: '))
+
+if numeroDigitado % 3 == 0: 
+    print (f'O número {numeroDigitado} é múltiplo de 3.')
+else:
+    print (f'O número {numeroDigitado} não é múltiplo de 3.')
+
 #Peça ao usuário para digitar 3 nomes e mostre todos eles em ordem alfabética:
+
+nome1 = input('Digite o primeiro nome: ')
+nome2 = input('Digite o segundo nome: ')
+nome3 = input('Digite o terceiro nome: ')
+
+listaDeNomes = [nome1,nome2,nome3]
+listaDeNomes.sort(reverse=False)
+
+print(f'Os nomes em ordem alfabética são: {listaDeNomes}')
