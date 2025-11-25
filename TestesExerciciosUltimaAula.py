@@ -12,7 +12,7 @@ class TestFuncoes(unittest.TestCase):
     unittest.main()
 
 #Teste 02
-
+      
     def test_ordenar_sem_repeticao(self):
         self.assertEqual(ordenar_sem_repeticao([3, 1, 2, 3]), [1, 2, 3])
         self.assertEqual(ordenar_sem_repeticao([]), [])
