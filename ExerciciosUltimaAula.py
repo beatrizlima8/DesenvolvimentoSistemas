@@ -41,3 +41,4 @@ def media_lista(lista):
     if not lista:
         return None
     return sum(lista) / len(lista)
+    
