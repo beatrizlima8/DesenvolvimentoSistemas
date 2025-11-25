@@ -17,7 +17,6 @@ def comparador_de_letras(letra: str):
     else:
         return 'Essa letra é uma consoante.'
 
-
 #3 Exercicio
 
 def comparador_de_senhas(senha, senha2):
