@@ -68,7 +68,19 @@ print(f'A média das notas é {media}!')
 
 #Peça ao usuário um número e mostre a tabuada desse número de 1 a 10:
 
+numero= int(input('Digite um número: '))
 
+print("Tabuada do ", numero)
+
+for numero2 in range(1,11):
+        print(numero, "x", numero2, " = ", numero * numero2)
+
+#Peça um número N ao usuário e mostre todos os números de 1 até N.
+numero = int (input(f"Digite um número: "))
+
+for numero in range (1, numero+1):
+    
+    print(numero)
 
 #Peça um número N ao usuário e mostre todos os números de 1 até N:
 
