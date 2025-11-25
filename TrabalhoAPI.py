@@ -67,3 +67,5 @@ def atualizar_tarefa(id: str, tarefa: Tarefa):
     
     db_tarefa[id] = tarefa
     raise HTTPException(status_code=status.HTTP_200_OK, detail=f"Tarefa atualizada com sucesso. Sua tarefa é: {tarefa.titulo}")
+
+
