@@ -1,7 +1,7 @@
 #1 Teste
 import unittest
 
-from Anna-03.10 import *
+from Beatriz-03.10 import *
 class testeCompleto(unittest.TestCase):
 
 
