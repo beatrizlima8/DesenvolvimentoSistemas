@@ -1,10 +1,10 @@
 import unittest
 from fastapi.testclient import TestClient
-from annaapi import app, db_tarefa  # importa sua API e o banco de tarefas
+from beatrizapi import app, db_tarefa  # importa sua API e o banco de tarefas
 
 client = TestClient(app)
 
-class TestAnnaAPI(unittest.TestCase):
+class TestBeatrizAPI(unittest.TestCase):
 
     def setUp(self):
         db_tarefa.clear()  # garante que o banco está vazio antes de cada teste
